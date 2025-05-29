@@ -12,7 +12,7 @@ set -g display-panes-colour brightred
 
 # --- Status Bar ---
 set -g status-left-length 40
-set -g status-left "#[fg=white,bg=blue,bold] #S #[default]"
+set -g status-left "#[fg=white,bg=green,bold] #S #[default]"
 set -g status-right "#[fg=black,bg=white] %Y-%m-%d %H:%M #[default]"
 set -g status-right-length 40
 set -g window-status-format " #I:#W "
